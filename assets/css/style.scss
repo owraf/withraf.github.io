@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
 :root {
-  --main-color: #7A3695;
-  --bg:  #2F2D30; 
-  --text-color: #F9EEFD; 
+    --main-color: #d4a787;
+    --bg:  #44312b; 
+    --text-color: #e0e0d8;  
 }
 
 
@@ -18,10 +18,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 100%;
     height: 100vh;
-
     background-color: var(--bg);
 }
 
@@ -53,6 +51,14 @@ b {
     color: var(--main-color);
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #34495e;
+  }
+
+  
 svg {
     width: 20px;
     height: 20px;
